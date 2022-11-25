@@ -1,0 +1,1 @@
+az vm create --name "" --resource-group "" 
