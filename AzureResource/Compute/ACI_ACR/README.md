@@ -1,4 +1,12 @@
-Create azure container with image
+Before creating Azure container registry need to create admin user
+
+az acr update -n <gaurav2107/registry name> --admin-enabled true
+
+Create azure container with image from private repository
+
+// yet to update the command
+
+Create azure container with image from public repository
 
 az container create -g 1-3a80efea-playground-sandbox -n simpleazcontainer --image mcr.microsoft.com/azuredocs/aci-helloworld:latest --ports 80 443 --dns-name-label az-land
 
